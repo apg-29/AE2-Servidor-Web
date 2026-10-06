@@ -6,8 +6,8 @@ site_name = "AE2 — Servidor Web"
 
 # copyright = "Copyright &copy; 2026 Angel"
 
-# repo_url = "https://github.com/user/repo"
-# repo_name = "user/repo"
+repo_url = "https://github.com/apg-29/AE2-Servidor-Web"
+repo_name = "apg-29/AE2-Servidor-Web"
 # edit_uri = "edit/main/docs/"
 
 nav = [
