@@ -175,3 +175,87 @@ Finalmente se puede recargar NGINX:
 ```bash
 sudo nginx -s reload
 ```
+
+## Despliegue de un sitio con Jekyll
+
+Como ampliación de la práctica, se ha creado un segundo sitio web utilizando Jekyll.
+
+## Instalación de Ruby
+
+Primero se instaló Ruby utilizando los repositorios del sistema:
+
+```bash
+sudo apt install ruby
+```
+
+Se comprobó que Ruby y RubyGems estaban correctamente instalados:
+
+```
+ruby -v gem -v
+```
+
+En este caso se obtuvo:
+
+```text
+Ruby 3.2.3 RubyGems 3.4.20
+```
+
+## Instalación de Jekyll
+
+A continuación se instalaron Jekyll y Bundler mediante RubyGems:
+
+```bash
+sudo gem install jekyll bundler
+```
+
+Se comprobó la instalación:
+
+```bash
+jekyll -v bundle -v
+```
+
+Versiones obtenidas:
+
+```text
+Jekyll 4.3.2 Bundler 4.0.22
+```
+
+## Creación del proyecto
+
+Se creó un nuevo proyecto Jekyll dentro del proyecto de la práctica:
+
+```bash
+jekyll new myblog
+```
+
+## Comprobación del sitio
+
+Para comprobar que Jekyll funciona correctamente se ejecutó:
+
+```bash
+bundle exec jekyll serve
+```
+
+El sitio se pudo visualizar desde el navegador utilizando el servidor de desarrollo de Jekyll.
+
+## Personalización
+
+Se modificó el contenido del sitio para convertirlo en una pequeña página personal.
+
+Se añadió una página Sobre mí mediante about.markdown y se crearon entradas de prueba en _posts/.
+
+Finalmente, se generó el sitio estático mediante:
+
+```bash
+bundle exec jekyll build
+```
+
+Los archivos generados se encuentran en:
+
+```text
+myblog/_site/
+```
+
+El siguiente paso será configurar un segundo servidor virtual de **NGINX** para servir el contenido generado por Jekyll.
+
+

@@ -1,3 +1,9 @@
 # gitignore
 .venv/
 site/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
