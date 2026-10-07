@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Sobre mi
+title: Sobre mí
 permalink: /about/
 ---
 
 Hola, soy Ángel.
 
-Estoy estudiando un ciclo superior en Desarrollo de aplicaciones Web y realizando prácticas de despliegue de aplicaciones web con NGINX.
+Soy estudiante de Desarrollo de Aplicaciones Web (DAW), comencé tras probar un bootcamp de desarrollo en python y ahora estoy muy interesado en todo este mundillo.
 
-En esta página he creado un pequeño sitio web utilizando Jekyll, que será desplegado mediante NGINX.
+En este blog tal vez vaya compartiendo algunas de las cosas que voy aprendiendo durante mis estudios y mis prácticas: por el momento, crear un site y trabajar con Jekyll hasta configurarlo con NGINX.
+
+Si algo de lo que publico puede servir para aprender mucho mejor.

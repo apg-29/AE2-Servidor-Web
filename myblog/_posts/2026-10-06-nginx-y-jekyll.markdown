@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Jekyll y NGINX"
+title: "Jekyll y NGINX: Blog en marcha"
 date: 2026-10-06
-categories: jekyll update
+categories: [Jekyll, NGINX]
 ---
 
-Jekyll se encarga de generar los archivos estáticos de la página web.
+Después de crear el blog con Jekyll, tocaba conseguir que pudiera verse desde el servidor y aquí entra NGINX.
 
-Una vez generado el sitio, NGINX puede servir esos archivos directamente a los usuarios.
+Jekyll genera todos los archivos estáticos del sitio y NGINX se encarga cuando alguien accede a la página de devolverlos al navegador.
 
-En esta práctica se ha configurado un segundo servidor virtual de NGINX para separar la web creada con Jekyll del sitio de documentación creado con Zensical.
+Durante el miniproyecto, también he configurado un segundo de NGINX para poder tener separado este blog del sitio de documentación que estoy utilizando con Zensical.
 
-El resultado final permite tener varios sitios web funcionando en el mismo servidor.
+En esta práctica se puede ver cómo varias aplicaciones web pueden convivir en el mismo servidor utilizando diferente configuración.
